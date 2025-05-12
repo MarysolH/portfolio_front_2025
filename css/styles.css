@@ -1,0 +1,117 @@
+/* Estilos generales*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b2c6d3;
+}
+
+header {
+    background-color: #f4f7f9;
+    text-align: center;
+    padding: 6rem;
+}
+
+header p, article p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+header blockquote {
+    font-style: italic;
+    margin-top: 1rem auto;
+    color: #b057ec;
+}
+
+.perfill-img {
+    width: 150px;
+    height: auto;    
+    display: block;
+    margin: 1rem auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+     text-align: center;
+}
+
+p {
+     text-align: center;
+}
+
+section, article, .contedor-conocimientos {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 0 1rem;
+}
+.contedor-conocimientos {
+    padding: 1.5rem;
+    background-color: #fff0f5;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+/*tabla*/
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #ba8bc2;
+    font-weight: bold;
+}
+
+tbody th {
+    background-color: white;
+    font-weight: normal;
+}
+
+/*formulario*/
+form {
+    width: 45%;
+    margin: 2rem auto;
+    background-color: #f3e5f5;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 6px;
+    border: 1px solid #ab47bc;
+}
+
+input[type="submit"] {
+    background-color: #ba8bc2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #9355de;
+}
+/* Footer */
+footer {
+  background-color: #e1bee7;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+
+    <!--Enlace al archivo CSS externo-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+    <h1>Hola! Soy Marysol Haedo.</h1>
+    <p>Soy desarrolladora de software en formación, apasionada por crear soluciones simples a problemas complejos.  
+    Me encanta transformar ideas en código y aprender nuevas tecnologías.</p>
+    
+    <!-- Imagen representativa de perfil -->
+    
+    <img src="images/perfill.jpg" alt="Foto de perfil" class="perfill-img">
+    
+    <!-- Cita-->
+    <blockquote>"Detrás de cada clic hay una mente que lo soñó y lo escribió."</blockquote>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Sobre mi</h2>
+            <p>Actualmente estoy enfocada en desarrollo web. Me gusta trabajar en proyectos que combinan lógica, diseño y funcionalidad.</p>
+        </article>
+
+    <!-- Una tabla para enumerar las tecnologías que conocemos,
+    las que queremos conocer y nuestros hobbies -->
+    <!-- Div contenedor para separar secciones visualmente-->
+        <div class="contenedor-conocimientos">
+            <section>
+                <h2>Conocimientos y hobbies.</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lo que sé</th>
+                            <th>Lo que quiero apender</th>
+                            <th>Mis hobbies</th>
+                        </tr> 
+                    </thead>                
+                    <tbody>                        
+                        <tr>
+                            <th>HTML, CSS, C++,Testing QA</th>
+                            <th>JavaScript, Node.js, React, Ciberseguridad</th>
+                            <th>Lectura, Música, Jardinería</th>
+                        </tr>
+                    </tbody>        
+                </table>
+            </section>
+        </div>     
+    
+    <!-- Formulario sencillo HTML sin funcionalidad.
+    Con campos nombre, apellido, email, telefono y un boton submit de enviar -->
+        <section>
+            <h2>Contacto</h2>
+            <p>Tienes alguna pregunta o propuesta, o sólo quieres saludar? Envíame un mensaje!</p>
+            <form id="mi_formulario">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" id="apellido" name="apellido" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                <!--Botón de envio-->            
+                <input type="submit" value="Enviar" >                
+            </form>
+            <!--dar mejor formato al formulario, incluir validaciones-->
+        </section> 
+        
+        <footer>
+            <p>Hecho con &#128187; y mucho café - <a href="#">Volver arriba</a></p>
+        </footer>
+    
+    </main> 
+</body>
+</html>
